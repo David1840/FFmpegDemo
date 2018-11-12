@@ -57,27 +57,27 @@ include CMakeFiles/MyC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyC.dir/flags.make
 
-CMakeFiles/MyC.dir/Mediainfo.c.o: CMakeFiles/MyC.dir/flags.make
-CMakeFiles/MyC.dir/Mediainfo.c.o: ../Mediainfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuwei/Desktop/MyC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MyC.dir/Mediainfo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyC.dir/Mediainfo.c.o   -c /Users/liuwei/Desktop/MyC/Mediainfo.c
+CMakeFiles/MyC.dir/extr_video.c.o: CMakeFiles/MyC.dir/flags.make
+CMakeFiles/MyC.dir/extr_video.c.o: ../extr_video.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuwei/Desktop/MyC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MyC.dir/extr_video.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyC.dir/extr_video.c.o   -c /Users/liuwei/Desktop/MyC/extr_video.c
 
-CMakeFiles/MyC.dir/Mediainfo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyC.dir/Mediainfo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liuwei/Desktop/MyC/Mediainfo.c > CMakeFiles/MyC.dir/Mediainfo.c.i
+CMakeFiles/MyC.dir/extr_video.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyC.dir/extr_video.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/liuwei/Desktop/MyC/extr_video.c > CMakeFiles/MyC.dir/extr_video.c.i
 
-CMakeFiles/MyC.dir/Mediainfo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyC.dir/Mediainfo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liuwei/Desktop/MyC/Mediainfo.c -o CMakeFiles/MyC.dir/Mediainfo.c.s
+CMakeFiles/MyC.dir/extr_video.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyC.dir/extr_video.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/liuwei/Desktop/MyC/extr_video.c -o CMakeFiles/MyC.dir/extr_video.c.s
 
 # Object files for target MyC
 MyC_OBJECTS = \
-"CMakeFiles/MyC.dir/Mediainfo.c.o"
+"CMakeFiles/MyC.dir/extr_video.c.o"
 
 # External object files for target MyC
 MyC_EXTERNAL_OBJECTS =
 
-MyC: CMakeFiles/MyC.dir/Mediainfo.c.o
+MyC: CMakeFiles/MyC.dir/extr_video.c.o
 MyC: CMakeFiles/MyC.dir/build.make
 MyC: CMakeFiles/MyC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liuwei/Desktop/MyC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable MyC"

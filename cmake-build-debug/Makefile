@@ -123,32 +123,32 @@ MyC/fast:
 	$(MAKE) -f CMakeFiles/MyC.dir/build.make CMakeFiles/MyC.dir/build
 .PHONY : MyC/fast
 
-Mediainfo.o: Mediainfo.c.o
+extr_video.o: extr_video.c.o
 
-.PHONY : Mediainfo.o
+.PHONY : extr_video.o
 
 # target to build an object file
-Mediainfo.c.o:
-	$(MAKE) -f CMakeFiles/MyC.dir/build.make CMakeFiles/MyC.dir/Mediainfo.c.o
-.PHONY : Mediainfo.c.o
+extr_video.c.o:
+	$(MAKE) -f CMakeFiles/MyC.dir/build.make CMakeFiles/MyC.dir/extr_video.c.o
+.PHONY : extr_video.c.o
 
-Mediainfo.i: Mediainfo.c.i
+extr_video.i: extr_video.c.i
 
-.PHONY : Mediainfo.i
+.PHONY : extr_video.i
 
 # target to preprocess a source file
-Mediainfo.c.i:
-	$(MAKE) -f CMakeFiles/MyC.dir/build.make CMakeFiles/MyC.dir/Mediainfo.c.i
-.PHONY : Mediainfo.c.i
+extr_video.c.i:
+	$(MAKE) -f CMakeFiles/MyC.dir/build.make CMakeFiles/MyC.dir/extr_video.c.i
+.PHONY : extr_video.c.i
 
-Mediainfo.s: Mediainfo.c.s
+extr_video.s: extr_video.c.s
 
-.PHONY : Mediainfo.s
+.PHONY : extr_video.s
 
 # target to generate assembly for a file
-Mediainfo.c.s:
-	$(MAKE) -f CMakeFiles/MyC.dir/build.make CMakeFiles/MyC.dir/Mediainfo.c.s
-.PHONY : Mediainfo.c.s
+extr_video.c.s:
+	$(MAKE) -f CMakeFiles/MyC.dir/build.make CMakeFiles/MyC.dir/extr_video.c.s
+.PHONY : extr_video.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MyC"
-	@echo "... Mediainfo.o"
-	@echo "... Mediainfo.i"
-	@echo "... Mediainfo.s"
+	@echo "... extr_video.o"
+	@echo "... extr_video.i"
+	@echo "... extr_video.s"
 .PHONY : help
 
 

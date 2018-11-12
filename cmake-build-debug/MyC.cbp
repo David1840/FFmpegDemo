@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/liuwei/Desktop/MyC/Mediainfo.c">
+		<Unit filename="/Users/liuwei/Desktop/MyC/extr_video.c">
 			<Option target="MyC"/>
 		</Unit>
 		<Unit filename="/Users/liuwei/Desktop/MyC/CMakeLists.txt">

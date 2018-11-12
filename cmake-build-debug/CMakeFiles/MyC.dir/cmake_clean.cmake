@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MyC.dir/Mediainfo.c.o"
+  "CMakeFiles/MyC.dir/extr_video.c.o"
   "MyC.pdb"
   "MyC"
 )
